@@ -4,7 +4,7 @@
 
 Simple Express routing for REST API.  
 Single handler function per endpoint.  
-Zod for type definition and data validation.
+Zod provides combined type definition/checking and data validation.
 
 Postman Collection for manual testing of API.  
 OpenAPI specification could be used with Swagger UI/Editor, but will require CORS.
@@ -60,5 +60,3 @@ These can be used to get, create and delete data.
 You can reset the data by restarting the server.
 
 ---
-
-© Backend Engineering Assignment
