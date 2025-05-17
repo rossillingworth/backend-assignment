@@ -4,10 +4,10 @@
 
 Simple Express routing for REST API.  
 Single handler function per endpoint.  
-Zod for type definition, as it allows data validation as well.
+Zod for type definition and data validation.
 
 Postman Collection for manual testing of API.  
-OpenAPI specification can be used with Swagger UI/Editor (requires CORS)
+OpenAPI specification could be used with Swagger UI/Editor, but will require CORS.
 
 ## Setup Instructions
 
@@ -45,7 +45,7 @@ x-api-key: my-secret-key
 ### Public Routes
 
 - `GET /policies/:id` - Get policy by ID (includes product)
-- `GET /policies?customerName=<name>` - Get policies by customer name
+- `GET /policies?customerName=<name>` - Get policies by customer name (allows partial matches)
 
 ### Authenticated Routes
 
@@ -55,8 +55,8 @@ x-api-key: my-secret-key
 
 ## Postman Collection
 
-A Postman collection is included in `postman_collection.json`.
-These can be used to get, create and delete data.
+A Postman collection is included in `postman_collection.json`.  
+These can be used to get, create and delete data.  
 You can reset the data by restarting the server.
 
 ---
